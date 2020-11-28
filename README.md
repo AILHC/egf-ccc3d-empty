@@ -45,6 +45,7 @@ AppMain.initFramework();
 >PS: 这里的时机就比较靠后了，依赖节点，注意这个组件实例会被切换场景后清掉。
 
 3. 每个文件的作用说明
+    
     a. AppMain.ts/AppMainComp.ts
 
         框架初始化用的
