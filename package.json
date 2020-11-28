@@ -1,0 +1,24 @@
+{
+  "name": "egf-ccc3d-empty",
+  "type": "3d",
+  "uuid": "f62a2bdd-85c2-4b03-9594-02adedb19196",
+  "version": "1.2.0",
+  "description": "An empty project of CocosCreator3D 1.2.0 based on EasyGameFramework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easy",
+    "game",
+    "framework",
+    "cocos",
+    "creator",
+    "3d"
+  ],
+  "author": "AILHC",
+  "license": "MIT",
+  "dependencies": {
+    "@ailhc/egf-core": "^0.1.4"
+  }
+}

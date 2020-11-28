@@ -1,0 +1,16 @@
+{
+  "ver": "4.0.1",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "4fbc6a8e-f411-43c6-87a4-363661259698",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/src/boot-loaders/FrameworkLoader.js",
+    "importerSettings": 0
+  }
+}

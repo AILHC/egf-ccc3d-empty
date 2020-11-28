@@ -1,0 +1,20 @@
+{
+  "ver": "4.0.1",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "e81d57d7-3eea-430b-b050-c41b60bc0609",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": true,
+    "moduleId": "project:///assets/src/framework/egf-core/egf-core.js",
+    "importerSettings": 0,
+    "isPlugin": true,
+    "loadPluginInWeb": true,
+    "loadPluginInNative": true,
+    "loadPluginInEditor": true,
+    "simulateGlobals": false
+  }
+}
