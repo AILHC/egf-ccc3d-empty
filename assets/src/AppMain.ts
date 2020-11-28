@@ -14,7 +14,6 @@ export class AppMain {
         setModuleMap(app.moduleMap);
         app.init();
         window["m"] = m;//挂在到全局，方便控制台调试，生产环境可以屏蔽=>安全
-        m.helloWorld.say();
     }
 
 }

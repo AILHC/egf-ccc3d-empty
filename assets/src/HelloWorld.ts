@@ -1,3 +1,5 @@
+import { director, Label } from "cc";
+import { MyLabelNode } from "./components/MyLabelNode";
 
 declare global {
     interface IModuleMap {
@@ -7,6 +9,10 @@ declare global {
 export class HelloWorld implements egf.IModule {
     key: string = "helloWorld";
     say(str?: string) {
-        console.log(`hello ${str ? str : "world"}`);
+        const helloSay = `hello ${str ? str : "world"}`;
+        console.log(helloSay);
+
+        const labelNode = director.getScene().getChildByName("Canvas").getChildByName("Label");
+        labelNode.getComponent(Label).string = helloSay;
     }
 }
